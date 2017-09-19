@@ -22,20 +22,31 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tdU-Vt-ddQ">
-                                <rect key="frame" x="148" y="318.5" width="78" height="30"/>
+                                <rect key="frame" x="148" y="64" width="78" height="30"/>
                                 <state key="normal" title="dynamicVC"/>
                                 <connections>
                                     <action selector="btnAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fRM-04-EyR"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kFg-1L-Tzq">
+                                <rect key="frame" x="0.0" y="94" width="375" height="573"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstAttribute="trailing" secondItem="kFg-1L-Tzq" secondAttribute="trailing" id="ElY-IG-lPW"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="kFg-1L-Tzq" secondAttribute="bottom" id="MIT-Uh-XTd"/>
+                            <constraint firstItem="kFg-1L-Tzq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Ra9-7q-jC7"/>
+                            <constraint firstItem="tdU-Vt-ddQ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Sha-xG-y35"/>
                             <constraint firstItem="tdU-Vt-ddQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UHx-3z-Yic"/>
-                            <constraint firstItem="tdU-Vt-ddQ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="b53-fr-qCn"/>
+                            <constraint firstItem="kFg-1L-Tzq" firstAttribute="top" secondItem="tdU-Vt-ddQ" secondAttribute="bottom" id="kjp-ku-88U"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="o66-lS-z7A"/>
+                    <connections>
+                        <outlet property="targetView" destination="kFg-1L-Tzq" id="Msh-YK-Pro"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

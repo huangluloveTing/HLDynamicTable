@@ -23,7 +23,7 @@
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="tes" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b4p-DG-NS2">
-                    <rect key="frame" x="5" y="9" width="521" height="249"/>
+                    <rect key="frame" x="6" y="9" width="519" height="249"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
@@ -71,21 +71,21 @@
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstAttribute="trailing" secondItem="b4p-DG-NS2" secondAttribute="trailing" constant="5" id="0tB-4K-hRt"/>
-                <constraint firstItem="b4p-DG-NS2" firstAttribute="leading" secondItem="HFd-7A-Oes" secondAttribute="leading" constant="5" id="9JG-di-01N"/>
                 <constraint firstItem="WYX-zi-ZTK" firstAttribute="top" secondItem="b4p-DG-NS2" secondAttribute="bottom" constant="8" id="E3X-2W-MIp"/>
                 <constraint firstItem="b4p-DG-NS2" firstAttribute="top" secondItem="0y4-Is-yzs" secondAttribute="bottom" constant="8" id="JtU-gW-HkX"/>
+                <constraint firstItem="b4p-DG-NS2" firstAttribute="leading" secondItem="Dec-UB-FZQ" secondAttribute="trailing" constant="5" id="KdL-MW-UF3"/>
+                <constraint firstItem="WYX-zi-ZTK" firstAttribute="trailing" secondItem="wAC-kH-Dhp" secondAttribute="trailing" id="MoW-y0-clg"/>
                 <constraint firstItem="0y4-Is-yzs" firstAttribute="top" secondItem="HFd-7A-Oes" secondAttribute="top" id="PtT-bg-2cd"/>
                 <constraint firstItem="0y4-Is-yzs" firstAttribute="leading" secondItem="Dec-UB-FZQ" secondAttribute="leading" id="R08-N9-grt"/>
                 <constraint firstItem="Dec-UB-FZQ" firstAttribute="top" secondItem="HFd-7A-Oes" secondAttribute="top" id="R1b-Qm-ScV"/>
                 <constraint firstItem="wAC-kH-Dhp" firstAttribute="top" secondItem="HFd-7A-Oes" secondAttribute="top" id="Rno-gm-y4q"/>
                 <constraint firstAttribute="bottom" secondItem="wAC-kH-Dhp" secondAttribute="bottom" id="XIA-LT-poM"/>
                 <constraint firstAttribute="bottom" secondItem="Dec-UB-FZQ" secondAttribute="bottom" id="ZeY-kz-WWi"/>
-                <constraint firstAttribute="trailing" secondItem="WYX-zi-ZTK" secondAttribute="trailing" id="aDb-sY-41Y"/>
-                <constraint firstItem="WYX-zi-ZTK" firstAttribute="leading" secondItem="HFd-7A-Oes" secondAttribute="leading" id="nQy-fu-dbv"/>
+                <constraint firstItem="wAC-kH-Dhp" firstAttribute="leading" secondItem="b4p-DG-NS2" secondAttribute="trailing" constant="5" id="bco-9K-oMu"/>
                 <constraint firstAttribute="bottom" secondItem="WYX-zi-ZTK" secondAttribute="bottom" id="nRg-6e-EUJ"/>
                 <constraint firstItem="0y4-Is-yzs" firstAttribute="trailing" secondItem="wAC-kH-Dhp" secondAttribute="trailing" id="pfN-kl-YKC"/>
                 <constraint firstAttribute="trailing" secondItem="wAC-kH-Dhp" secondAttribute="trailing" id="s56-1v-B2W"/>
+                <constraint firstItem="WYX-zi-ZTK" firstAttribute="leading" secondItem="Dec-UB-FZQ" secondAttribute="leading" id="x0y-ix-s1J"/>
                 <constraint firstItem="Dec-UB-FZQ" firstAttribute="leading" secondItem="HFd-7A-Oes" secondAttribute="leading" id="zKU-Bd-xWh"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>

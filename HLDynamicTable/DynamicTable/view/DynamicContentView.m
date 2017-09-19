@@ -62,7 +62,7 @@
         NSAssert([content isKindOfClass:[DynamicContentObject class]], @"传入的数据必须是 DynamicContentObject 类型");
         
         CGFloat width = content.width != 0 ? content.width : Per_Width;
-        CGFloat l_x = (width + padding_hori) * i + padding_hori; //每个label 的 x 坐标
+        CGFloat l_x = totalWidth; //每个label 的 x 坐标
         CGFloat l_y = padding_vert;
         
         DynamicLabel *label = [self getContentLabelWithContent:content.content
@@ -73,13 +73,13 @@
                                          withWidthOrHeight:width - 12
                                               isWidthFixed:YES];
         
-        CGRect frame = CGRectMake(l_x, l_y, width , labelSize.height + 18);
+        CGRect frame = CGRectMake(l_x, l_y, width , labelSize.height + 20);
         label.frame = frame;
         [self.scrolView addSubview:label];
         [self.labels addObject:label];
         totalWidth += (width + padding_hori);
-        if (maxHeight <= labelSize.height + 18) {
-            maxHeight = labelSize.height + 18;
+        if (maxHeight <= labelSize.height + 20) {
+            maxHeight = labelSize.height + 20;
         }
     }
     
