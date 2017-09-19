@@ -26,6 +26,8 @@
     // Dispose of any resources that can be recreated.
 }
 - (IBAction)btnAction:(id)sender {
+    
+    
     HLDynamicVC *vc = [[HLDynamicVC alloc] init];
     [self.navigationController pushViewController:vc animated:YES];
 }
