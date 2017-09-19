@@ -10,11 +10,11 @@ Pod::Spec.new do |s|
 
  s.name         = "HLDynamicTable"
 
- s.version      = "0.0.1"
+ s.version      = "0.0.2"
 
  s.ios.deployment_target = '8.0'
 
- s.summary      = "一个可以随意添加列数的表格视图"
+ s.summary      = "一个可以随意添加列数的表格视图,添加项目视图，可以去git主页，下载demo"
 
  s.homepage     = "https://github.com/huangluloveTing/HLDynamicTable.git"
 
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
 
  s.social_media_url   = "https://github.com/huangluloveTing/HLDynamicTable.git"
 
- s.source       = { :git => "https://github.com/huangluloveTing/HLDynamicTable.git", :tag => "0.0.1" }
+ s.source       = { :git => "https://github.com/huangluloveTing/HLDynamicTable.git", :tag => "0.0.2" }
 
  s.source_files  = "HLDynamicTable/DynamicTable/**/*"
 
