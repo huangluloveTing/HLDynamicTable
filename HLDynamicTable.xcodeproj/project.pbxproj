@@ -19,11 +19,15 @@
 		709C5A001F70A53D0029CB91 /* DynamicContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 709C59F21F70A53D0029CB91 /* DynamicContentView.m */; };
 		709C5A011F70A53D0029CB91 /* DynamicLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 709C59F41F70A53D0029CB91 /* DynamicLabel.m */; };
 		709C5A021F70A53D0029CB91 /* DynamicView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 709C59F51F70A53D0029CB91 /* DynamicView.xib */; };
-		709C5A031F70A53D0029CB91 /* HLDynamicTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 709C59F71F70A53D0029CB91 /* HLDynamicTableCell.m */; };
-		709C5A041F70A53D0029CB91 /* HLDynamicTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 709C59F81F70A53D0029CB91 /* HLDynamicTableCell.xib */; };
 		709C5A051F70A53D0029CB91 /* HLDynamicTableHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 709C59FA1F70A53D0029CB91 /* HLDynamicTableHeader.m */; };
 		709C5A061F70A53D0029CB91 /* HLDynamic_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 709C59FC1F70A53D0029CB91 /* HLDynamic_VC.m */; };
 		709C5A091F70A5550029CB91 /* HLDynamicVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 709C5A081F70A5550029CB91 /* HLDynamicVC.m */; };
+		709C5A0D1F70B6060029CB91 /* HLMobileApprovalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 709C5A0C1F70B6060029CB91 /* HLMobileApprovalView.m */; };
+		709C5A121F70B8760029CB91 /* HLMobileApprovalMiddleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 709C5A101F70B8760029CB91 /* HLMobileApprovalMiddleCell.m */; };
+		709C5A131F70B8760029CB91 /* HLMobileApprovalMiddleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 709C5A111F70B8760029CB91 /* HLMobileApprovalMiddleCell.xib */; };
+		709C5A171F70BBA80029CB91 /* FSTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 709C5A161F70BBA80029CB91 /* FSTextView.m */; };
+		709C5A1C1F70CB5F0029CB91 /* HLDynamicTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 709C5A1A1F70CB5F0029CB91 /* HLDynamicTableCell.m */; };
+		709C5A1D1F70CB5F0029CB91 /* HLDynamicTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 709C5A1B1F70CB5F0029CB91 /* HLDynamicTableCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,15 +52,23 @@
 		709C59F31F70A53D0029CB91 /* DynamicLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicLabel.h; sourceTree = "<group>"; };
 		709C59F41F70A53D0029CB91 /* DynamicLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicLabel.m; sourceTree = "<group>"; };
 		709C59F51F70A53D0029CB91 /* DynamicView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DynamicView.xib; sourceTree = "<group>"; };
-		709C59F61F70A53D0029CB91 /* HLDynamicTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLDynamicTableCell.h; sourceTree = "<group>"; };
-		709C59F71F70A53D0029CB91 /* HLDynamicTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLDynamicTableCell.m; sourceTree = "<group>"; };
-		709C59F81F70A53D0029CB91 /* HLDynamicTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HLDynamicTableCell.xib; sourceTree = "<group>"; };
 		709C59F91F70A53D0029CB91 /* HLDynamicTableHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLDynamicTableHeader.h; sourceTree = "<group>"; };
 		709C59FA1F70A53D0029CB91 /* HLDynamicTableHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLDynamicTableHeader.m; sourceTree = "<group>"; };
 		709C59FB1F70A53D0029CB91 /* HLDynamic_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLDynamic_VC.h; sourceTree = "<group>"; };
 		709C59FC1F70A53D0029CB91 /* HLDynamic_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLDynamic_VC.m; sourceTree = "<group>"; };
 		709C5A071F70A5550029CB91 /* HLDynamicVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLDynamicVC.h; sourceTree = "<group>"; };
 		709C5A081F70A5550029CB91 /* HLDynamicVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLDynamicVC.m; sourceTree = "<group>"; };
+		709C5A0B1F70B6060029CB91 /* HLMobileApprovalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLMobileApprovalView.h; sourceTree = "<group>"; };
+		709C5A0C1F70B6060029CB91 /* HLMobileApprovalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLMobileApprovalView.m; sourceTree = "<group>"; };
+		709C5A0F1F70B8760029CB91 /* HLMobileApprovalMiddleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLMobileApprovalMiddleCell.h; sourceTree = "<group>"; };
+		709C5A101F70B8760029CB91 /* HLMobileApprovalMiddleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLMobileApprovalMiddleCell.m; sourceTree = "<group>"; };
+		709C5A111F70B8760029CB91 /* HLMobileApprovalMiddleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HLMobileApprovalMiddleCell.xib; sourceTree = "<group>"; };
+		709C5A151F70BBA80029CB91 /* FSTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSTextView.h; sourceTree = "<group>"; };
+		709C5A161F70BBA80029CB91 /* FSTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSTextView.m; sourceTree = "<group>"; };
+		709C5A181F70BD550029CB91 /* DynamicDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DynamicDefine.h; sourceTree = "<group>"; };
+		709C5A191F70CB5F0029CB91 /* HLDynamicTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLDynamicTableCell.h; sourceTree = "<group>"; };
+		709C5A1A1F70CB5F0029CB91 /* HLDynamicTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLDynamicTableCell.m; sourceTree = "<group>"; };
+		709C5A1B1F70CB5F0029CB91 /* HLDynamicTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HLDynamicTableCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,8 +132,12 @@
 			children = (
 				709C59E91F70A53D0029CB91 /* HLDynamicTableView.h */,
 				709C59EA1F70A53D0029CB91 /* HLDynamicTableView.m */,
+				709C5A0A1F70B4E60029CB91 /* mobileApproval */,
+				709C5A141F70BBA80029CB91 /* FSTextView */,
+				709C5A0E1F70B81F0029CB91 /* cells */,
 				709C59EB1F70A53D0029CB91 /* uitl */,
 				709C59EE1F70A53D0029CB91 /* view */,
+				709C5A181F70BD550029CB91 /* DynamicDefine.h */,
 			);
 			path = DynamicTable;
 			sourceTree = "<group>";
@@ -145,13 +161,41 @@
 				709C59F31F70A53D0029CB91 /* DynamicLabel.h */,
 				709C59F41F70A53D0029CB91 /* DynamicLabel.m */,
 				709C59F51F70A53D0029CB91 /* DynamicView.xib */,
-				709C59F61F70A53D0029CB91 /* HLDynamicTableCell.h */,
-				709C59F71F70A53D0029CB91 /* HLDynamicTableCell.m */,
-				709C59F81F70A53D0029CB91 /* HLDynamicTableCell.xib */,
 				709C59F91F70A53D0029CB91 /* HLDynamicTableHeader.h */,
 				709C59FA1F70A53D0029CB91 /* HLDynamicTableHeader.m */,
 			);
 			path = view;
+			sourceTree = "<group>";
+		};
+		709C5A0A1F70B4E60029CB91 /* mobileApproval */ = {
+			isa = PBXGroup;
+			children = (
+				709C5A0B1F70B6060029CB91 /* HLMobileApprovalView.h */,
+				709C5A0C1F70B6060029CB91 /* HLMobileApprovalView.m */,
+			);
+			path = mobileApproval;
+			sourceTree = "<group>";
+		};
+		709C5A0E1F70B81F0029CB91 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				709C5A191F70CB5F0029CB91 /* HLDynamicTableCell.h */,
+				709C5A1A1F70CB5F0029CB91 /* HLDynamicTableCell.m */,
+				709C5A1B1F70CB5F0029CB91 /* HLDynamicTableCell.xib */,
+				709C5A0F1F70B8760029CB91 /* HLMobileApprovalMiddleCell.h */,
+				709C5A101F70B8760029CB91 /* HLMobileApprovalMiddleCell.m */,
+				709C5A111F70B8760029CB91 /* HLMobileApprovalMiddleCell.xib */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		709C5A141F70BBA80029CB91 /* FSTextView */ = {
+			isa = PBXGroup;
+			children = (
+				709C5A151F70BBA80029CB91 /* FSTextView.h */,
+				709C5A161F70BBA80029CB91 /* FSTextView.m */,
+			);
+			path = FSTextView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,11 +257,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				709C5A041F70A53D0029CB91 /* HLDynamicTableCell.xib in Resources */,
 				709C5A021F70A53D0029CB91 /* DynamicView.xib in Resources */,
 				709C59E11F70A5120029CB91 /* LaunchScreen.storyboard in Resources */,
 				709C59DE1F70A5120029CB91 /* Assets.xcassets in Resources */,
 				709C59DC1F70A5120029CB91 /* Main.storyboard in Resources */,
+				709C5A1D1F70CB5F0029CB91 /* HLDynamicTableCell.xib in Resources */,
+				709C5A131F70B8760029CB91 /* HLMobileApprovalMiddleCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,12 +277,15 @@
 				709C5A051F70A53D0029CB91 /* HLDynamicTableHeader.m in Sources */,
 				709C5A091F70A5550029CB91 /* HLDynamicVC.m in Sources */,
 				709C59D91F70A5120029CB91 /* ViewController.m in Sources */,
+				709C5A0D1F70B6060029CB91 /* HLMobileApprovalView.m in Sources */,
 				709C59D61F70A5120029CB91 /* AppDelegate.m in Sources */,
-				709C5A031F70A53D0029CB91 /* HLDynamicTableCell.m in Sources */,
+				709C5A1C1F70CB5F0029CB91 /* HLDynamicTableCell.m in Sources */,
 				709C5A001F70A53D0029CB91 /* DynamicContentView.m in Sources */,
 				709C59D31F70A5120029CB91 /* main.m in Sources */,
 				709C59FF1F70A53D0029CB91 /* DynamicContentObject.m in Sources */,
+				709C5A171F70BBA80029CB91 /* FSTextView.m in Sources */,
 				709C5A061F70A53D0029CB91 /* HLDynamic_VC.m in Sources */,
+				709C5A121F70B8760029CB91 /* HLMobileApprovalMiddleCell.m in Sources */,
 				709C5A011F70A53D0029CB91 /* DynamicLabel.m in Sources */,
 				709C59FD1F70A53D0029CB91 /* HLDynamicTableView.m in Sources */,
 			);
@@ -308,7 +356,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -350,6 +398,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -362,6 +411,7 @@
 				DEVELOPMENT_TEAM = 2F85MS5QM7;
 				INFOPLIST_FILE = HLDynamicTable/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.biz-uinitedT.SFA.HLDynamicTable";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -374,6 +424,7 @@
 				DEVELOPMENT_TEAM = 2F85MS5QM7;
 				INFOPLIST_FILE = HLDynamicTable/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.biz-uinitedT.SFA.HLDynamicTable";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -398,6 +449,7 @@
 				709C59E71F70A5120029CB91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

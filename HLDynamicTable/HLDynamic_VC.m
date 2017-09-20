@@ -21,9 +21,10 @@
     [super viewDidLoad];
     
     self.dynamicTableView = [[HLDynamicTableView alloc] initWithFrame:self.view.bounds ToTargetView:self.view Style:UITableViewStylePlain];
+    
     self.dynamicTableView.dynamicDataSource = self;
     self.dynamicTableView.dynamicDelegate = self;
-    [self.view addSubview:self.dynamicTableView];
+    
 }
 
 - (void)didReceiveMemoryWarning {
