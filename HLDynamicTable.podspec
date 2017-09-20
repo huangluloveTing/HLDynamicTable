@@ -26,7 +26,34 @@ Pod::Spec.new do |s|
 
  s.source       = { :git => "https://github.com/huangluloveTing/HLDynamicTable.git", :tag => "0.0.2" }
 
- s.source_files  = "HLDynamicTable/DynamicTable/**/*"
+ s.source_files  = "HLDynamicTable/DynamicTable/**/*.*"
+ #s.ios.private_header_files = 'HLDynamicTable/DynamicTable/view/*'
+
+
+# 	s.subspec 'mobileApproval' do |app|
+ #		app.ios.private_header_files = 'HLDynamicTable/DynamicTable/**/*'
+  #      app.source_files = 'HLDynamicTable/DynamicTable/mobileApproval/**/*'
+	#end
+
+ #	s.subspec 'FSTextView' do |app|
+ #      app.source_files = 'HLDynamicTable/DynamicTable/FSTextView/**/*'
+#	end
+
+
+ #	s.subspec 'cells' do |app|
+#		app.ios.private_header_files = 'HLDynamicTable/DynamicTable/view/*'
+#       app.source_files = 'HLDynamicTable/DynamicTable/cells/**/*'
+#	end
+
+
+#	s.subspec 'view' do |app|
+ #		app.ios.private_header_files = 'HLDynamicTable/DynamicTable/util/*'
+ #      app.source_files = 'HLDynamicTable/DynamicTable/view/**/*'
+#	end
+
+#	s.subspec 'uitl' do |app|
+#       app.source_files = 'HLDynamicTable/DynamicTable/uitl/**/*'
+#	end
 
  s.requires_arc = true
 
